@@ -53,10 +53,11 @@ The output file consisted by "gene", "snp"	and "weight"
 
 
 ## Usage
-We provided example input data here.
+We provided example input data [here](https://github.com/LidaWangPSU/EXPRESSO/tree/main/example_data).
 
 Data were subsetted from GTEx whole blood tissue as an example to run the script.
 
+Example of R script used to run EXPRESSO can be found [here]().
 
 ## Contact
 Lida Wang [lida.wang.96@gmail.com](lida.wang.96@gmail.com)
