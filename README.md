@@ -3,10 +3,10 @@ EXpression PREdiction with Summary Statistics Only
 
 ## Table of contents
 * [Introduction](#Introduction)
-* [Installation]
-* [Quick tutorial]
-* [Input files]
-* [Contact]
+* [Installation](#Installation)
+* [Quick tutorial](#Quick tutorial)
+* [Input files](#Input files)
+* [Contact](#Contact)
 
 ## Introduction
 This project is simple Lorem ipsum dolor generator.
