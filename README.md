@@ -48,7 +48,7 @@ Input includes
 * gene.vec: a list of input gene id
 
 ### Output results
-We perform EXPRESSO by three different tunning parameter methods, including pseudo variable selection, BIC and MSE.
+We perform EXPRESSO by three different tunning parameter methods, including pseudo variable selection and MSE.
 
 The weight output includes:
 * gene: gene id
