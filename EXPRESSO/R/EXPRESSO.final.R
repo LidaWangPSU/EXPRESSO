@@ -185,7 +185,7 @@ EXPRESSO<- function(sumstatFile, annoFile,windowFile,refFile,out_path,minMaf=0.0
       
       ix.match <- match(pos.analysis,pos.ref);
       
-      cor.analysis <- matrix(rm.na(cor.ref[ix.match,ix.match]),nrow=length(ix.match),ncol=length(ix.match));
+      cor.analysis <- matrix(cor.ref[ix.match,ix.match],nrow=length(ix.match),ncol=length(ix.match));
       diag(cor.analysis) <- 1;
       
       
