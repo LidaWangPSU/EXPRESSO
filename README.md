@@ -4,8 +4,8 @@ EXpression PREdiction with Summary Statistics Only
 ## Table of contents
 * [Introduction](#Introduction)
 * [Installation](#Installation)
-* [Quick tutorial](#Quick tutorial)
-* [Input files](#Input files)
+* [Quick tutorial](#Quick_tutorial)
+* [Input files](#Input_files)
 * [Contact](#Contact)
 
 ## Introduction
