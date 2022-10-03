@@ -1,0 +1,20 @@
+Package: EXPRESSO
+Title: EXpression PREdiction with Summary Statistics Only 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Lida", "Wang", , "lida.wang.96@gmailcom", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: EXPRESSO (EXpression PREdiction with Summary Statistics Only) can analyze eQTL summary statistics. It also integrates 3D genomic data to define cis-regulatory regions properly and uses epigenetic annotation to prioritize causal variants. It substantially improves TWAS methods that rely individual level data and outperforms polygenic risk score methods adapted to TWAS methods.
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends:
+  R (>= 3.5.0)
+Imports:
+  rareGWAMA,
+  MASS,
+  fast.lasso,
+  data.table,
+  BEDMatrix,
+  caret
