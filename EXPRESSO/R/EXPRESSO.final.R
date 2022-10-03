@@ -197,7 +197,7 @@ EXPRESSO<- function(sumstatFile, annoFile,windowFile,refFile,out_path,minMaf=0.0
       
       ix.match <- match(pos.analysis, pos.anno);
       anno.analysis <- anno[ix.match,];
-      ess <- rm.na(anno.analysis$overlap);
+      ess <- anno.analysis$overlap;
       group <- rep(1,length(pos.analysis));
       group[which(ess==1)] <- 2;
       
