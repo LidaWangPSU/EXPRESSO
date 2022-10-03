@@ -69,5 +69,8 @@ Data were subsetted from GTEx whole blood tissue as an example to run the script
 
 Example of R script used to run EXPRESSO can be found [here](https://github.com/LidaWangPSU/EXPRESSO/blob/main/example_data/example.code.R).
 
+Example of EXPRESSO output can be found [here](https://github.com/LidaWangPSU/EXPRESSO/blob/main/example_data/example.code.R).
+
+
 ## Contact
 Lida Wang [lida.wang.96@gmail.com](lida.wang.96@gmail.com)
