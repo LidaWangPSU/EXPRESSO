@@ -49,7 +49,10 @@ Input includes
 
 ### Output results
 We perform EXPRESSO by three different tunning parameter methods, including pseudo variable selection, BIC and MSE.
-The output file consisted by "gene", "snp"	and "weight"	
+The weight output includes:
+* gene: gene id
+* snp: snp id
+* weight: corresponding non-zero weight
 
 
 ## Usage
