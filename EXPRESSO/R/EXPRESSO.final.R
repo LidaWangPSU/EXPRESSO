@@ -59,18 +59,18 @@ read_plink_custom <- function(root, impute = c('none', 'avg', 'random')) {
 #'
 #' @examples
 EXPRESSO<- function(sumstatFile, annoFile,windowFile,refFile,out_path,minMaf=0.05,refIndv=NULL,maxIter=1000,gene.vec=NULL,append=TRUE) {
-  fname.out1 <- paste0(out_path,'-weight.mse.txt');
-  fname.out2 <- paste0(out_path,'-weight.bic.txt');
+  #fname.out1 <- paste0(out_path,'-weight.mse.txt');
+  #fname.out2 <- paste0(out_path,'-weight.bic.txt');
   fname.out3 <- paste0(out_path,'-weight.pseudo.txt');
-  cat(file=fname.out1,c('gene','snp','weight'),'\n',sep='\t',append=append);
-  cat(file=fname.out2,c('gene','snp','weight'),'\n',sep='\t',append=append);
+  #cat(file=fname.out1,c('gene','snp','weight'),'\n',sep='\t',append=append);
+  #cat(file=fname.out2,c('gene','snp','weight'),'\n',sep='\t',append=append);
   cat(file=fname.out3,c('gene','snp','weight'),'\n',sep='\t',append=append);
   
-  cv.out1 <- paste0(out_path,'-cv.mse.txt');
-  cv.out2 <- paste0(out_path,'-cv.bic.txt');
+  #cv.out1 <- paste0(out_path,'-cv.mse.txt');
+  #cv.out2 <- paste0(out_path,'-cv.bic.txt');
   cv.out3 <- paste0(out_path,'-cv.pseudo.txt');
-  cat(file=cv.out1,c('gene','window','phi','r2'),'\n',sep='\t',append=append);
-  cat(file=cv.out2,c('gene','window','phi','r2'),'\n',sep='\t',append=append);
+  #cat(file=cv.out1,c('gene','window','phi','r2'),'\n',sep='\t',append=append);
+  #cat(file=cv.out2,c('gene','window','phi','r2'),'\n',sep='\t',append=append);
   cat(file=cv.out3,c('gene','window','phi','r2'),'\n',sep='\t',append=append);
   
   
@@ -249,8 +249,8 @@ EXPRESSO<- function(sumstatFile, annoFile,windowFile,refFile,out_path,minMaf=0.0
     cv.out.pseudo<-cbind(gene.vec[ii],cv.list[ix.min.pseudo[ii],c(1,2,5)])
     
     
-    write.table(file=cv.out1,cv.out.mse,sep='\t',append=TRUE,col.names=F,row.names=F,quote=F)
-    write.table(file=cv.out2,cv.out.bic,sep='\t',append=TRUE,col.names=F,row.names=F,quote=F)
+    #write.table(file=cv.out1,cv.out.mse,sep='\t',append=TRUE,col.names=F,row.names=F,quote=F)
+    #write.table(file=cv.out2,cv.out.bic,sep='\t',append=TRUE,col.names=F,row.names=F,quote=F)
     write.table(file=cv.out3,cv.out.pseudo,sep='\t',append=TRUE,col.names=F,row.names=F,quote=F)
     
     #########computing weights
@@ -276,7 +276,7 @@ EXPRESSO<- function(sumstatFile, annoFile,windowFile,refFile,out_path,minMaf=0.0
       l1.out.b <- rep(mse.out$l1_penalty,length(ix.keep.b));
       l2.out.b <- rep(mse.out$l2_penalty,length(ix.keep.b));
       res.out.b <- cbind(gene.out.b,snp.out.b,beta.out.b);
-      write.table(file=fname.out1,res.out.b,sep='\t',append=TRUE,col.names=F,row.names=F,quote=F)
+      #write.table(file=fname.out1,res.out.b,sep='\t',append=TRUE,col.names=F,row.names=F,quote=F)
 
     }
     
@@ -304,10 +304,10 @@ EXPRESSO<- function(sumstatFile, annoFile,windowFile,refFile,out_path,minMaf=0.0
       l1.out.b <- rep(bic.out$l1_penalty,length(ix.keep.b));
       l2.out.b <- rep(bic.out$l2_penalty,length(ix.keep.b));
       res.out.b <- cbind(gene.out.b,snp.out.b,beta.out.b);
-      write.table(file=fname.out2,res.out.b,sep='\t',append=TRUE,col.names=F,row.names=F,quote=F)
+      #write.table(file=fname.out2,res.out.b,sep='\t',append=TRUE,col.names=F,row.names=F,quote=F)
 
     }else if(length(mse.out$beta)>0){
-      write.table(file=fname.out2,res.out.b,sep='\t',append=TRUE,col.names=F,row.names=F,quote=F)
+      #write.table(file=fname.out2,res.out.b,sep='\t',append=TRUE,col.names=F,row.names=F,quote=F)
 
     }
     
