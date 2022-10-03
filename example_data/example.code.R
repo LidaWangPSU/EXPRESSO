@@ -1,3 +1,17 @@
+library(devtools)
+
+devtools::install_github("zhanxw/fast.lasso")
+
+devtools::install_github("dajiangliu/rareGWAMA")
+
+devtools::install_github("LidaWangPSU/EXPRESSO/EXPRESSO")
+
+library(EXPRESSO)
+library(fast.lasso)
+library(rareGWAMA)
+library(MASS)
+library(data.table)
+
 #setwd()#yourlocal path
 
 refFile <- "gtex_chr22.hm3"
