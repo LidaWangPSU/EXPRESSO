@@ -33,7 +33,7 @@ library(EXPRESSO)
 Here we go.
 
 ## Quick tutorial
-# Bulid gene expression prediction model
+### Bulid gene expression prediction model
 ```
 res.tmp <- EXPRESSO(sumstatFile,annoFile,windowFile,refFile,out_path,minMaf,maxIter,gene.vec,append=F)
 ```
@@ -47,11 +47,16 @@ Input includes
 * maxIter: maximum iteration of gradient descent algorithm
 * gene.vec: a list of input gene id
 
-# Output results
+### Output results
 We perform EXPRESSO by three different tunning parameter methods, including pseudo variable selection, BIC and MSE.
 The output file consisted by "gene", "snp"	and "weight"	
 
 
-## Input files
+## Usage
+We provided example input data here.
+
+Data were subsetted from GTEx whole blood tissue as an example to run the script.
+
 
 ## Contact
+Lida Wang [lida.wang.96@gmail.com](lida.wang.96@gmail.com)
