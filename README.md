@@ -49,10 +49,17 @@ Input includes
 
 ### Output results
 We perform EXPRESSO by three different tunning parameter methods, including pseudo variable selection, BIC and MSE.
+
 The weight output includes:
 * gene: gene id
 * snp: snp id
 * weight: corresponding non-zero weight
+
+The cv output includes:
+* gene: gene id
+* window: the chosen 3D window
+* phi: the chosen penalty factor for epigenetic annotated variants
+* r2: r2 estimated by summary-statistics based cross-validation
 
 
 ## Usage
