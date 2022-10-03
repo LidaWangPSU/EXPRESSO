@@ -2,7 +2,7 @@
 EXpression PREdiction with Summary Statistics Only 
 
 ## Table of contents
-* [Introduction]
+* [Introduction](#Introduction)
 * [Installation]
 * [Quick tutorial]
 * [Input files]
