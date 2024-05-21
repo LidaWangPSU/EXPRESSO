@@ -1,5 +1,6 @@
 # EXPRESSO
 EXpression PREdiction with Summary Statistics Only 
+[paper link](https://www.nature.com/articles/s41467-024-48143-1)
 
 ## Table of contents
 * [Introduction](#Introduction)
