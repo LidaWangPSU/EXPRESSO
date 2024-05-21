@@ -171,7 +171,7 @@ EXPRESSO<- function(sumstatFile, annoFile,windowFile,refFile,out_path,minMaf=0.0
     ss.list<-list()
     
     for(jj in 1:length(window)) {
-      if(is.na(window[[jj]])){next}
+      if(is.null(window[[jj]])){next}
       cat('analyzing',names(window)[jj],'\n',sep=" ");
       a <- Sys.time();
       pos.ref<-gsub("X",23,pos.ref)
