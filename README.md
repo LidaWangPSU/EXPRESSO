@@ -72,6 +72,7 @@ Example of R script used to run EXPRESSO can be found [here](https://github.com/
 
 Example of EXPRESSO output can be found [here](https://github.com/LidaWangPSU/EXPRESSO/tree/main/example_data/output).
 
+Pre-generated annotation and 3D window files for whole blood and brain tissue could be downloaded [here](https://www.dropbox.com/scl/fo/2ad3cy8i3lz82h2jbm3gy/AHtjjBdlaO2-F79BJ7ilqpM?rlkey=gl8qrgrc3wmbna66oenzchemf&st=hba6sdda&dl=0). 
 
 ## Contact
 Lida Wang [lida.wang.96@gmail.com](lida.wang.96@gmail.com)
